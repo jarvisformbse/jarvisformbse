@@ -1,489 +1,245 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<link rel="icon" href="favicon.ico">
-	<title>Jarvis for MBSE</title>
-	<!-- Bootstrap core CSS -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">-->
-	<!-- Custom styles for this template -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-	      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	<link href="css/owl.carousel.css" rel="stylesheet">
-	<link href="css/owl.theme.default.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Jarvis</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="assets/css/custom.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.com/hsu0ayg.css">
+
 </head>
-<body id="page-top">
-<!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top">
-	<div class="container">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header page-scroll">
-			<button type="button" class="navbar-toggle" data-toggle="collapse"
-			        data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="page-scroll" href="#page-top"><img style="max-width: 400px" src="images/logo.png"
-			                                             alt="Jarvis for MBSE"></a>
-		</div>
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-				<li class="hidden">
-					<a href="#page-top"></a>
-				</li>
 
-				<li>
-					<a class="page-scroll" href="#about">About</a>
-				</li>
-				<li>
-					<a class="page-scroll" href="#architecture">Architecture</a>
-				</li>
-				<!--					<li>
-										<a class="page-scroll" href="#services">Services</a>
-									</li>-->
-				<li>
-					<a class="page-scroll" href="#portfolio">Documentation</a>
-				</li>
-				<li>
-					<a class="page-scroll" href="#contact">JOIN US!</a>
-				</li>
-			</ul>
-		</div>
-		<!-- /.navbar-collapse -->
-	</div>
-	<!-- /.container-fluid -->
-</nav>
-<!-- Header -->
-<header>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#header"><img src="images/logo.png"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="#about">About Us</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#vision">Our Vision</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#architecture">Achitecture</a>
+			 </li>
+			<li class="nav-item">
+				<a class="nav-link" href="#goals">Our Goals</a>
+			</li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="header">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('images/banner-1.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>JARVIS For</h3>
+			<h1>Model Based Systems Engineering</h1>
+            <p>JARVIS for MBSE is to break the barriers of different fields and help them work together with ease and smart suggestions, better visual illustrations and recommendation with prior experience.</p>
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('images/banner-2.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>JARVIS For</h3>
+			<h1>Model Based Systems Engineering</h1>
+            <p>JARVIS FOR MBSE will develop a better understanding to the user in-order to understand the complexity of information in lucid manner.</p>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  
+
+<section id="about">
 	<div class="container">
-		<div class="slider-container">
-			<div class="intro-text">
-				<div class="intro-lead-in">JARVIS For</div>
-				<div class="intro-heading">Model Based Systems Engineering</div>
-				<a href="#about" class="page-scroll btn btn-xl">Tell Me More</a>
+		<div class="row">
+			<div class="col-lg-12">
+				<h1>About Us</h1>
+				<h4 class="subtitle">Jarvis for MBSE</h4>
+				<div style="height:30px;"></div>
+				<p>JARVIS FOR MBSE is a product developed for all the users involved in Model-Based System Engineering, also it enriches user visualization experience by extending it towards 3D visualisation using concepts of Augmented Reality.</p>
+				<p>Users, irrespective of their engineering discipline would be able to create CONSENS models in the Multi-Platform Frontend editor which provides user friendly interface which can be used on devices with touch capabilities such as Surface Hub. The MultiPlatform Frontend (MPF) is easy to understand for engineers coming from all kinds of engineering disciplines. MPF provides user experience with ease in the form of recommendations. JARVIS FOR MBSE provides an intuitive and interactive modelbased approach for systems engineering with system model creation tools. It uses advanced user interaction and visualization techniques and to assist system engineers in their engineering process. All the user-designed models will be stored in the Core (Backend) and will be technically refined and developed into SysML models with CONSENS profiling using EMF. MBSE assistance powered by Artificial Intelligence assist JARVIS for MBSE in the form of recommendations for enhancing the system design based on the existing models utilising Graph Database.</p>
+				<p>Most of the time user designed CONSENS models are very complex and consist of inter relations between elements and other models. The Augmented Reality aids to visualize these models by mapping it into a 3D environment by providing further clarity to the project due to its interactive functionalities. Furthermore, the models should be stored somewhere to access or manipulate them. This functionality is performed by Backend.</p>
+				<p>The above-mentioned components should collaborate with each other to complete the product. JARVIS for MBSE is very useful especially during workshops and its review processes. Due to the (often) limited time within workshops it assists in easy understanding of MBSE process. In order to achieve this, a user is given the MPF editor, allowing him/her to model CONSENS models by hand drawing shapes and writing texts which are directly converted to CONSENS models instead of having to click through several menus as offered by many tools so far the same is possible even through speech. In addition, JARVIS for MBSE also supports Chatbot for user assistance.</p>
 			</div>
 		</div>
 	</div>
-</header>
-<section id="about" class="light-bg short-section">
-	<div class="row">
-		<div class="col-lg-12 text-center">
-			<div class="section-title">
-				<h2>About</h2>
+</section>
 
+<section id="vision">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1>Our Vision</h1>
+				<h4 class="subtitle">Jarvis for MBSE</h4>
+				<div style="height:30px;"></div>
+				<p>The idea of the JARVIS for MBSE is to bring expertise from different streams collaborate and coordinate to provide a way to capture all the information from the different disciplines of model driven engineering. As every discipline has different type of models, different Concepts and Terminologies, in order to handle homogenously all, we are working on JARVIS FOR MBSE. Also, as System Engineering increases the development and Performance for Intelligent Technical System, so our product will be facilitating the efficiency.</p>
 			</div>
 		</div>
 	</div>
-	<div class="container text-center">
-		<div class="col-lg-6">
-				<p>The advances in the field of information- and communication technologies pave the way for the
-					development of so-called intelligent technical systems (ITS). ITS integrate mechanical,
-					electrical, and
-					software components in order to realize adaptive, robust, anticipatory, and user-friendly
-					behavior. Typical
-					examples for ITS are modern driver assistance systems, which support the driver of a car in
-					order to
-					increase safety and comfort.
-					<br><br>
-					The development of ITS requires a close interaction and a common understanding of the system
-					between
-					engineers from different engineering disciplines (e.g. mechanics, electronics, and software).
-					Model-based
-					Systems Engineering (MBSE) utilizes models in order to achieve this goal. These models are used
-					for the
-					coordination of the involved engineering disciplines and serve as input for the domain-specific
-					development.
-					The main advantages of formal models are their unambiguity and the potential to process these
-					models by
-					means of information systems.
-					lbeit the advantages of MBSE are widely recognized in science as well as in industry, there is still
-					a lack of
-					a systematic application of MBSE in many manufacturing industries. One of the main reasons is the
-					complexity of current MBSE tools. The initial training required for the adoption of these tools in a
-					company
-					leads to remarkable costs and the cumbersome operation of the tools causes an additional overhead
-					during
-					system design.
+</section>
+
+<section id="architecture">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1>Achitecture</h1>
+				<h4 class="subtitle">JARVIS for MBSE consists of four main components</h4>
+				<div style="height:10px;"></div>
+				<p style="font-size: 18px;text-align:center;">JARVIS FOR MBSE is an amalgamation of four different component which coordinate together cohesively to provide an <br>efficient system. Each of the individual component is explained below.</p>
+				<div style="height:30px;"></div>
+			</div>
+			
+			<!-- Start Core -->
+			<div class="col-lg-6 image-col core-bg">
+				
+			</div>
+			<div class="col-lg-6 info-col">
+				<h2>Core</h2>
+				<p>CORE is a persistent data storage and in common communication gateway between all the components.</p>
+				<ul>
+					<li>Facilitate storage and update of all the CONSENS partial models provided by MPF</li>
+					<li>Support visualization of the JSON file in SysML via EMF (Eclipse modelling framework)</li>
+					</li>CORE provides a communication gateway for suggestions received from MBSE assistant to MPF users.</li>
+					<li>AR can fetch CONSENS partial models from CORE via REST API and show on AR platform</li>
+					</ul>
+			</div>
+			<!-- End Core -->
+			
+			<!-- Start AR -->
+			<div class="col-lg-6 info-col">
+				<h2>AUGMENTED REALITY</h2>
+				<p>AR is responsible for visualising the MBSE models in HoloLens. Functionalities that AR is going to support in the system are below:</p>
+				<ul>
+				  <li>3D representation of the models for better visual experience of CONSENS model</li>
+				  <li>Enrichment by visualizing additional information and dependencies&nbsp;</li>
+				  <li>Head Mounted Displays support portability&nbsp;</li>
+				  <li>Adjustment of the views according to user preferences</li>
+				  <li>Move between different hierarchy levels using interaction scripts&nbsp;</li>
+				  <li>Filtration and better traceability between models and the requirements </li>
+				</ul>
+			</div>
+			<div class="col-lg-6 image-col ar-bg">
+				
+			</div>
+			<!-- End AR -->
+			
+			<!-- Start AI -->
+			<div class="col-lg-6 image-col ai-bg">
+				
+			</div>
+			<div class="col-lg-6 info-col">
+				<h2>Artificial Intelligence</h2>
+				<p>AI is responsible for aiding MPF editor. Functionalities that AI is going to support in the system are below.</p>
+				<ul>
+				  <li>Store all CONSENS partial models which are provided by MPF via backend in Graph DB.</li>
+				  <li>Update Graph DB with the changes on existing projects.</li>
+				  <li>Assist the MPF user with suggestions while user creates environment mode.</li>
+				  <li>Generate new environment model based on the provided requirement model.</li>
+				  <li>Detect word synonyms to enhance the knowledge graph.</li>
+				  <li>Assist MPF user while writing in text fields with spell correction and auto- completion.</li>
+				  <li>Assist MPF use with a chatbot while using the JARVIS System.</li>
+				  <li>Provide Shape, text and speech recognition features in MPF component.</li>
+				</ul>
+			</div>
+			<!-- End AI -->
+			
+			<!-- Start AR -->
+			<div class="col-lg-6 info-col">
+				<h2>Multi Platform Frontend</h2>
+				<p>Multi Platform Frontend (MPF) is the frontend of the JARVIS application. MPF aims to provide an easy, efficient and a structured way to model systems.</p>
+				<ul>
+				  <li>Create, update and delete user projects to model systems.</li>
+				  <li>Create and maintain CONSENS partial models like Environment, Requirement, Application Scenario and Active Structure partial models.</li>
+				  <li>Communicate with Backend to utilize the database to indirectly communicate with the AI.</li>
+				  <li>Provide suggestions on spell check, sentence auto-completion, CONSENS elements, flows and partial models received from AI.</li>
+				  <li>Enable shape recognition, text recognition, speech recognition and drag and drop features to provide flexibility while creating partial models.</li>
+				  <li>Chatbot feature to help users to better understand the functioning of JARVIS, CONSENS concepts and Software Engineering concepts.</li>
+				  <li>Provide Help page to provide information about FAQ's and the working of JARVIS.</li>
+				  <li>Provide a Settings page to enable users to enable and disable the features provided in the MPF and to customize the outlook of MPF.</li>
+				</ul>
+			</div>
+			<div class="col-lg-6 image-col mpf-bg">
+				
+			</div>
+			<!-- End AR -->
+
+		</div>
+	</div>
+</div>
+
+<section id="goals">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1>Our Goals</h1>
+				<h4 class="subtitle">Jarvis for MBSE</h4>
+				<div style="height:30px;"></div>
+				<p>The goal of JARVIS for MBSE is to develop ecosystem where System Engineer’s can collaborate in order to create CONSENS model for different products. With JARVIS
+				or MBSE we intend to ease the user understanding of model driven engineering.</p>
+				<p>Designing and engineering in today’s acute, smart world requires collaboration and coordination of different fields, expertise of all kinds to bring out the best results. JARVIS for MBSE is to break the barriers of different fields and help them work together with ease and smart suggestions, better visual illustrations and recommendation with prior experience. JARVIS for MBSE believes in assisting user in order to enrich his/her experience with the help of Chatbot Assistance.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+				<p class="text-left text-white">&copy; 2020 JARVIS For MBSE</p>
+			</div>
+			<div class="col-lg-6">
+				<p class="text-right text-white">
+					<a href="#about">About Us</a> | <a href="#vision">Our Vision</a> | <a href="#architecture">Achitecture</a> | <a href="#goals">Our Goals</a>
 				</p>
-		</div>
-		<div class="col-lg-6">
-			<p>A In order to overcome these problems, the project group will develop a new MBSE tool,
-				which
-				enables a more intuitive system design and supports the engineers by means of a build-in artificial
-				intelligence (AI) assistant. In particular, the project group will pursue the following two
-				goals.
-
-				In order to enable an intuitive system design, the project group will
-				explore modern concepts for user interaction (e.g. touch, voice, gestures), analyze them for their suitability
-				for MBSE, and provide a prototypical implementation of the identified concepts. We plan to implement
-				these concepts in the Microsoft Environment as Apps for the Microsoft SurfaceHub. However, the selection
-				of appropriate frameworks, development environments, and algorithms is a task of the project group.
-				<br><br>
-				MBSE Assistance: The second approach is the development of a build-in AI-based assistant that supports
-				the engineers during MBSE. To this end, the project group will analyze common MBSE processes in order
-				to identify potentials for AI support. The identified potentials will then be used for the design and
-				prototypical implementation of an assistant that provides context-sensitive support during MBSE.
-			</p>
-		</div>
-	</div>
-</section>
-
-<section id="architecture" class="dark-bg">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<div class="section-title">
-					<h2>ARCHITECTURE</h2>
-					<p>JARVIS for MBSE consists of four main components</p>
-				</div>
 			</div>
 		</div>
-		<div class="row">
-			<!-- about module -->
-			<div class="col-md-3 text-center">
-				<div class="mz-module-about">
-					<i class="fab fa-windows ot-circle"></i>
-					<h3>UWP Editor</h3>
-					<p>Interactive GUI for 2D representation and design of system models</p>
-				</div>
-			</div>
-			<!-- end about module -->
-			<!-- about module -->
-			<div class="col-md-3 text-center">
-				<div class="mz-module-about">
-					<i class="fa fa-vr-cardboard ot-circle"></i>
-					<h3>Augmented Reality</h3>
-					<p>3D representations of system models using Microsoft HoloLens</p>
-				</div>
-			</div>
-			<!-- end about module -->
-			<!-- about module -->
-			<div class="col-md-3 text-center">
-				<div class="mz-module-about">
-					<i class="fa fa-server ot-circle"></i>
-					<h3>Backend</h3>
-					<p>Stores formalized system models & performs model transformations</p>
-				</div>
-			</div>
-			<!-- end about module -->
-			<!-- about module -->
-			<div class="col-md-3 text-center">
-				<div class="mz-module-about">
-					<i class="fas fa-brain ot-circle"></i>
-					<h3>MBSE Assistant</h3>
-					<p>Knowledge & semantic discovery. Automation of design activities.</p>
-				</div>
-			</div>
-			<!-- end about module -->
-		</div>
-	</div>
-	<!-- /.container -->
-</section>
+    </div>
+    <!-- /.container -->
+  </footer>
 
+  <!-- Bootstrap core JavaScript -->
+  <script src="assets/jquery/jquery.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.js"></script>
 
-
-<section id="portfolio" class="light-bg">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<div class="section-title">
-					<h2>JARVIS System Design & Documentation</h2>
-				</div>
-			</div>
-		</div>
-		<div class="row row-0-gutter">
-			<!-- start portfolio item -->
-			<div class="col-md-4 col-0-gutter">
-				<div class="ot-portfolio-item">
-					<figure class="effect-bubba">
-
-						<img src="images/demo/portfolio-2.jpg" alt="img02" class="img-responsive"/>
-						<figcaption>
-							<h2>Design specification</h2>
-							<p>View more</p>
-							<!--	<a href="#" data-toggle="modal" data-target="#Modal-1">View more</a> -->
-							<a target="_blank" href="images/demo/desspec.pdf"></a>
-						</figcaption>
-					</figure>
-				</div>
-			</div>
-			<!-- end portfolio item -->
-			<!-- start portfolio item -->
-			<div class="col-md-4 col-0-gutter">
-				<div class="ot-portfolio-item">
-					<figure class="effect-bubba">
-						<img src="images/demo/portfolio-2.jpg" alt="img02" class="img-responsive"/>
-						<figcaption>
-							<h2>Requirements Specification</h2>
-							<p>View more</p>
-							<!-- <a href="#" data-toggle="modal" data-target="#Modal-2">View more</a> -->
-							<a target="_blank" href="images/demo/reqspec.pdf"></a>
-						</figcaption>
-					</figure>
-				</div>
-			</div>
-			<!-- end portfolio item -->
-			<!-- start portfolio item -->
-			<div class="col-md-4 col-0-gutter">
-				<div class="ot-portfolio-item">
-					<figure class="effect-bubba">
-						<img src="images/demo/portfolio-3.jpg" alt="img02" class="img-responsive"/>
-						<figcaption>
-							<h2>Overview Flyer</h2>
-							<p>View more</p>
-							<a href="#" data-toggle="modal" data-target="#Modal-3"></a>
-						</figcaption>
-					</figure>
-				</div>
-			</div>
-			<!-- end portfolio item -->
-		</div>
-	</div><!-- end container -->
-</section>
-
-<!--Learning Outcomes
-Practical experiences in software design and development
-Practical experiences in systems engineering and model-based systems engineering
-Expertise in modern concepts for user interaction and AI design
-Project management, presentation, and team working skills
-Desired Prerequisites
-Good programming skills
-Prior knowledge in modeling and modeling languages (e.g. UML, SysML)
-Interest in systems engineering and model-based systems engineering
-Interdisciplinary and analytical thinking-->
-<section id="contact" class="dark-bg">
-	<div class="row">
-		<div class="col-lg-12 text-center">
-			<div class="section-title">
-				<h2>Planning to join us?</h2>
-
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="col-lg-6">
-
-			<h1 style="color: #1b6d85;">Learning Outcomes</h1>
-			<p>-Practical experiences in software design and development<br>
-				-Practical experiences in systems engineering and model-based systems engineering<br>
-				-Expertise in modern concepts for user interaction and AI design<br>
-				-Project management, presentation, and team working skills<br>
-			</p>
-		</div>
-		<div class="col-lg-6">
-
-			<h1 style="color: #1b6d85">Desired Prerequisites</h1>
-			<p>-Good programming skills<br>
-				-Prior knowledge in modeling and modeling languages (e.g. UML, SysML)<br>
-				-Interest in systems engineering and model-based systems engineering<br>
-				-Interdisciplinary and analytical thinking<br>
-
-			</p>
-		</div>
-	</div>
-	<!--<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<div class="section-title">
-					<h2>Contact Us</h2>
-					<p>If you have some Questions or need Help! Please Contact Us!<br>We make Cool and Clean Design for
-						your Business</p>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-3">
-				<div class="section-text">
-					<h4>Our Business Office</h4>
-					<p>3422 Street, Barcelona 432, Spain, New Building North, 15th Floor</p>
-					<p><i class="fa fa-phone"></i> +101 377 655 22125</p>
-					<p><i class="fa fa-envelope"></i> mail@yourcompany.com</p>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="section-text">
-					<h4>Business Hours</h4>
-					<p><i class="fa fa-clock-o"></i> <span class="day">Weekdays:</span><span>9am to 8pm</span></p>
-					<p><i class="fa fa-clock-o"></i> <span class="day">Saturday:</span><span>9am to 2pm</span></p>
-					<p><i class="fa fa-clock-o"></i> <span class="day">Sunday:</span><span>Closed</span></p>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<form name="sentMessage" id="contactForm" novalidate="">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Your Name *" id="name" required=""
-								       data-validation-required-message="Please enter your name.">
-								<p class="help-block text-danger"></p>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="form-group">
-								<input type="email" class="form-control" placeholder="Your Email *" id="email"
-								       required="" data-validation-required-message="Please enter your email address.">
-								<p class="help-block text-danger"></p>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<div class="form-group">
-								<textarea class="form-control" placeholder="Your Message *" id="message" required=""
-								          data-validation-required-message="Please enter a message."></textarea>
-								<p class="help-block text-danger"></p>
-							</div>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="row">
-						<div class="col-lg-12 text-center">
-							<div id="success"></div>
-							<button type="submit" class="btn">Send Message</button>
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>-->
-</section>
-<p id="back-top">
-	<a href="#top"><i class="fa fa-angle-up"></i></a>
-</p>
-<footer>
-	<div class="container text-center">
-		<p>Designed by
-			<a href="https://gismo150.github.io./">
-				<span>Daniel Braun</span>
-			</a> and
-		<span style="color: #3330fe">
-			Sven Hartwig
-		</span>
-		</p>
-	</div>
-</footer>
-
-<!-- Modal for portfolio item 1 -->
-<div class="modal fade" id="Modal-1" tabindex="-1" role="dialog" aria-labelledby="Modal-label-1">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
-				</button>
-				<h4 class="modal-title" id="Modal-label-1">Design Specification</h4>
-			</div>
-			<div class="modal-body">
-				<iframe frameborder="0" src="images/demo/desspec.pdf" height="800" width="450"></iframe>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- Modal for portfolio item 2 -->
-<div class="modal fade" id="Modal-2" tabindex="-1" role="dialog" aria-labelledby="Modal-label-2">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
-				</button>
-				<h4 class="modal-title" id="Modal-label-2">Startup Framework</h4>
-			</div>
-			<div class="modal-body">
-				<img src="images/demo/portfolio-2.jpg" alt="img01" class="img-responsive"/>
-				<div class="modal-works"><span>Branding</span><span>Web Design</span></div>
-				<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- Modal for portfolio item 3 -->
-<div class="modal fade" id="Modal-3" tabindex="-1" role="dialog" aria-labelledby="Modal-label-3">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
-				</button>
-				<h4 class="modal-title" id="Modal-label-3">Overview Flyer</h4>
-			</div>
-			<div class="modal-body">
-				<img src="images/demo/Flyer.png" alt="img01" class="img-responsive"/>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- Modal for portfolio item 4 -->
-<div class="modal fade" id="Modal-4" tabindex="-1" role="dialog" aria-labelledby="Modal-label-4">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
-				</button>
-				<h4 class="modal-title" id="Modal-label-4">Smart Name</h4>
-			</div>
-			<div class="modal-body">
-				<img src="images/demo/portfolio-4.jpg" alt="img01" class="img-responsive"/>
-				<div class="modal-works"><span>Branding</span><span>Web Design</span></div>
-				<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- Modal for portfolio item 5 -->
-<div class="modal fade" id="Modal-5" tabindex="-1" role="dialog" aria-labelledby="Modal-label-5">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
-				</button>
-				<h4 class="modal-title" id="Modal-label-5">Fast People</h4>
-			</div>
-			<div class="modal-body">
-				<img src="images/demo/portfolio-5.jpg" alt="img01" class="img-responsive"/>
-				<div class="modal-works"><span>Branding</span><span>Web Design</span></div>
-				<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- Bootstrap core JavaScript
-	================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/cbpAnimatedHeader.js"></script>
-<script src="js/jquery.appear.js"></script>
-<script src="js/SmoothScroll.min.js"></script>
-<script src="js/mooz.themes.scripts.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,170 @@
+body {
+}
+
+.carousel-caption {
+    background: rgba(1,1,1,0.85);
+    margin: 0 5%;
+	bottom: 90px;
+}
+
+.carousel-caption h3 {
+    color: #c4cace;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.carousel-caption h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 4.85em !important;
+}
+
+.carousel-caption p {
+    color: #c4cace;
+    padding: 0 5%;
+    font-size: 18px;
+}
+
+.navbar {
+    background-color: rgba(1,1,1,.75) !important;
+}
+
+.navbar-brand img {
+  width: 300px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    font-family: "bebas-neue";
+    padding: 0 25px;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+}
+
+.carousel-item {
+  height: 95vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section {
+    padding: 90px 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: "bebas-neue";
+    font-size: 6em !important;
+    line-height: 0.9em;
+    color: #000000;
+}
+
+h2{
+    font-family: "bebas-neue";
+    font-size: 4em !important;
+    line-height: 0.9em;
+    color: #000000;
+	margin-bottom: 15px !important;
+}
+
+h4.subtitle {
+    text-align: center;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    color: #283e4a;
+    font-size: 24px;
+}
+
+#about p {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+#vision {
+	background: linear-gradient(rgba(51,51,118,0.85),rgba(51,51,118,0.85)), url(../../images/vision-bg.jpg);
+	background-attachment: fixed;
+}
+
+#vision h1 {
+	color: #ffffff;
+}
+
+#vision .subtitle {
+	color: #c4cace;
+}
+
+#vision p {
+    color: #ffffff;
+    text-align: center;
+    padding: 0 16%;
+    font-size: 20px;
+	text-align: justify;
+}
+
+#goals {
+	background: linear-gradient(rgba(51,51,118,0.85),rgba(51,51,118,0.85)), url(../../images/banner-2.jpg);
+	background-attachment: fixed;
+}
+
+#goals h1 {
+	color: #ffffff;
+}
+
+#goals .subtitle {
+	color: #c4cace;
+}
+
+#goals p {
+    color: #ffffff;
+    text-align: center;
+    padding: 0 15%;
+    font-size: 20px;
+	text-align: justify;
+}
+
+section#architecture {
+    padding-bottom: 0px;
+}
+
+.core-bg {
+    background-size: cover;
+    background-image: url(../../images/core-bg.jpg);
+}
+
+.ar-bg {
+    background-size: cover;
+    background-image: url(../../images/ar-bg.jpg);
+}
+
+.ai-bg {
+    background-size: cover;
+    background-image: url(../../images/ai-bg.png);
+}
+
+.mpf-bg {
+    background-image: url(../../images/mpf-bg.jpg);
+	background-position: center left;
+}
+
+.col-lg-6.info-col {
+    padding: 5%;
+    background: #f2f2f2;
+}
+
+footer {
+    background: #000 !important;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #c4cace;
+    padding: 0 15px;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
